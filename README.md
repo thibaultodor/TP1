@@ -11,11 +11,11 @@
 
 L'objectif des deux premiers TPs de ce module est de vous familiariser avec tous les nouveaux outils qui vous aideront durant l'apprentissage du cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventez la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatique est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à la [gestion de versions](https://fr.wikipedia.org/wiki/Gestion_de_versions), à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), au [test unitaire](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
 
-### Découverte de Git et préparation de l'environnement
+### Introduction à Git et préparation de l'environnement
 
 Comme vous allez le découvrir, pour conserver vos réalisations et permettre à votre enseignant de suivre votre 
 avancement vous allez apprendre à versionner votre travail avec [Git](https://git-scm.com/) sur la plateforme collaborative [GitHub](https://github.com/). Pendant ce module, 
-vous allez principalement écrire du code pour vous-même et qui sera partagé avec vos enseignants. Lorsque vous allez travailler sur le projet à plusieurs vous allez pouvoir mesurer tout le potentiel de [Git](https://git-scm.com/).
+vous allez principalement écrire du code pour vous-même et qui sera partagé avec vos enseignants. Lorsque vous allez travailler sur des projets à plusieurs vous allez pouvoir mesurer tout le potentiel de [Git](https://git-scm.com/). Car tout l'intérêt de travailler avec Git c'est de pouvoir __collaborer__ de manière organisée.
 
 #### Création d'un compte Github
 
@@ -64,7 +64,7 @@ Télécharger le fichier **"Git-it-Linux-x64.zip"** , le décompacter dans votre
 
 Une fois le tutoriel terminé, prennez une capture d'écran de la page web intégrant votre contribution et l'envoyer à votre enseignant par mail. Notez que ce sera la dernière fois que vous soumettrez votre travail (ou la preuve de celui-ci) par mail. Désormais tous les TPs se feront en utilisant Git !
 
-Enfin vous pouvez utiliser ce mini [tutoriel](http://pageperso.lif.univ-mrs.fr/~petru.valicov/Cours/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
+Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](http://pageperso.lif.univ-mrs.fr/~petru.valicov/Cours/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
 
 
 #### Configuration locale de Git
@@ -82,7 +82,7 @@ email = choucroute.garnie@etu-umontpellier.fr
 ```
 
 ### Création de votre fork du TP1
-Maintenant que vous connaissez les bases de Git, vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant :
+Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
 https://classroom.github.com/a/Zkv-kUZA
 
@@ -101,4 +101,4 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 ### Exercice 1
 Dans la méthode principale de la classe `HelloWorld` faites afficher le message "Salut le monde". Dans un terminal, compilez, exécutez, vérifier et versionnez votre travail.
 
-Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Est-ce que tous les fichiers que vous avez dans votre répertoire local ont été versionnés et pourquoi ?
+Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Que constatez vous ?
