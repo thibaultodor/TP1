@@ -55,7 +55,7 @@ l'une après l'autre, les possibilités de ces outils.
 Ce tutoriel prend la forme d'une application de bureau appelée **[Git-It](https://github.com/jlord/git-it-electron)**. 
 Cette application est multi-plateforme et pourra donc être utilisée indifférement sur les ordinateurs du département ou 
 le vôtre. Elle contient des défis pour l'apprentissage, en utilisant vraiment Git et GitHub, pas des émulateurs. 
-Vous apprendrez la géniale ligne de commande (et pas si effrayante) et GitHub, ce qui signifie que lorsque 
+Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque 
 vous terminerez tous les défis, vous aurez de vrais dépôts sur votre compte GitHub et vos carrés verts comme les grands 
 sur votre tableau de contribution.
 
