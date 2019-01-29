@@ -55,7 +55,7 @@ l'une après l'autre, les possibilités de ces outils.
 Ce tutoriel prend la forme d'une application de bureau appelée **[Git-It](https://github.com/jlord/git-it-electron)**. 
 Cette application est multi-plateforme et pourra donc être utilisée indifférement sur les ordinateurs du département ou 
 le vôtre. Elle contient des défis pour l'apprentissage, en utilisant vraiment Git et GitHub, pas des émulateurs. 
-Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque vous aurez termineré tous les défis, vous aurez de vrais dépôts sur votre compte GitHub et vos carrés verts comme les grands sur votre tableau de contribution.
+Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque vous aurez terminé tous les défis, vous aurez de vrais dépôts sur votre compte GitHub et vos carrés verts comme les grands sur votre tableau de contribution.
 
 Téléchargez le fichier **"Git-it-Linux-x64.zip"** , décompressez-le dans votre répertoire `$HOME` et lancez l'exécutable `Git-it`. Une interface en français est disponible si l'anglais n'est pas votre tasse de thé. La première étape du tutoriel (sur la création d'un compte GitHub) peut être passée car vous l'avez déjà réalisée dans la précédente étape du TP.
 
