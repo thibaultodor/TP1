@@ -7,6 +7,16 @@
 * Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
 * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 
+Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'espace de stockage autorisé :
+
+* placez-vous dans votre `$HOME` et utilisez les commandes suivantes :
+    * `du -sh` pour voir combien d'espace vous avez déjà utilisé
+    * `du -sh *` pour voir combien d'espace vous avez déjà utilisé pour chaque fichier (sans fichiers cachés)
+    * `du -sch .[!.]* *` pour voir combien d'espace vous avez déjà utilisé pour chaque fichier, y compris les fichiers cachés
+* Supprimez les fichiers inutiles.
+* Pour évitez des problèmes durant vos TPs d'informatique, vous devriez toujours **garder 300-400 Mo d'espace libre**.
+
+
 ## TP 1 : Découverte de Git et premiers code versionnés
 
 L'objectif des deux premiers TPs de ce module est de vous familiariser avec tous les nouveaux outils qui vous aideront durant l'apprentissage du cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventer la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatiques est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à la [gestion de versions](https://fr.wikipedia.org/wiki/Gestion_de_versions), à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), aux [tests unitaires](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
