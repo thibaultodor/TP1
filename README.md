@@ -85,7 +85,7 @@ section `[user]`.
 [user]
 username = choucroute-garnie
 name = Choucroute Garnie
-email = choucroute.garnie@etu-umontpellier.fr
+email = choucroute.garnie@etu.umontpellier.fr
 ```
 
 ### Création de votre fork du TP1
