@@ -3,7 +3,7 @@
 ### IUT Montpellier-Sète – Département Informatique
 
 * **Cours:** [M2103](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf) - support [ici](https://github.com/IUTInfoMontp-M2103/Ressources)
-* **Enseignants:** [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr), [Sébastien Gagné](mailto:sebastien.gagne@umontpellier.fr), [Jérôme Palaysi](mailto:jerome.palaysi@umontpellier.fr), [Victor Poupet](mailto:victor.poupet@umontpellier.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr), [Bruno Yun](mailto:bruno.yun@umontpellier.fr)
+* **Enseignants:** [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr), [Sébastien Gagné](mailto:sebastien.gagne@umontpellier.fr), [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr), [Jérôme Palaysi](mailto:jerome.palaysi@umontpellier.fr), [Victor Poupet](mailto:victor.poupet@umontpellier.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr)
 * Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
 * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 
@@ -17,15 +17,15 @@ Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'es
 * Pour évitez des problèmes durant vos TPs d'informatique, vous devriez toujours **garder 300-400 Mo d'espace libre**.
 
 
-## TP 1 : Découverte de Git et premiers code versionnés
+## TP 1 : Rappels de Git et premiers code versionnés
 
-L'objectif des deux premiers TPs de ce module est de vous familiariser avec tous les nouveaux outils qui vous aideront durant l'apprentissage du cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventer la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatiques est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à la [gestion de versions](https://fr.wikipedia.org/wiki/Gestion_de_versions), à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), aux [tests unitaires](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
+L'objectif des deux premiers TPs de ce module est de vous rappeler les concepts principaux liés à la [gestion de version](https://fr.wikipedia.org/wiki/Gestion_de_versions) avec [Git](https://git-scm.com/). Cet outil vous sera indispensable durant l'apprentissage de ce cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventer la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatiques est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), aux [tests unitaires](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
 
 ### Introduction à Git et préparation de l'environnement
 
-Comme vous allez le découvrir, pour conserver vos réalisations et permettre à votre enseignant de suivre votre 
-avancement vous allez apprendre à versionner votre travail avec [Git](https://git-scm.com/) sur la plateforme collaborative [GitHub](https://github.com/). Pendant ce module, 
-vous allez principalement écrire du code pour vous-même et qui sera partagé avec vos enseignants. Lorsque vous allez travailler sur des projets à plusieurs vous allez pouvoir mesurer tout le potentiel de [Git](https://git-scm.com/). Car tout l'intérêt de travailler avec Git c'est de pouvoir __collaborer__ de manière organisée.
+Pour conserver vos réalisations et permettre à votre enseignant de suivre votre 
+avancement vous allez apprendre à versionner votre travail avec Git sur la plateforme collaborative [GitHub](https://github.com/). Pendant ce module, 
+vous allez principalement écrire du code pour vous-même et qui sera partagé avec vos enseignants. Lorsque vous allez travailler sur le projet à plusieurs vous allez pouvoir mesurer tout le potentiel d'un gestionnaire de version. Car tout l'intérêt de travailler avec Git c'est de pouvoir __collaborer__ de manière organisée.
 
 #### Création d'un compte Github
 
@@ -59,17 +59,12 @@ Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudi
 
 #### Prise en main de Git
 
-Pour continuer à prendre en main Git et GitHub, vous allez suivre un tutoriel interactif vous permettant de découvrir 
-l'une après l'autre, les possibilités de ces outils. 
-
-Ce tutoriel prend la forme d'une application de bureau appelée **[Git-It](https://github.com/jlord/git-it-electron)**. 
+Normalement vous avez tous suivi au Semestre 1 le [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT. Si vous voulez vous entraîner un peu plus, notamment sur l'utilisation des branches, vous pouvez utiliser le tutoriel interactif **[Git-It](https://github.com/jlord/git-it-electron)**. 
 Cette application est multi-plateforme et pourra donc être utilisée indifférement sur les ordinateurs du département ou 
 le vôtre. Elle contient des défis pour l'apprentissage, en utilisant vraiment Git et GitHub, pas des émulateurs. 
 Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque vous aurez terminé tous les défis, vous aurez de vrais dépôts sur votre compte GitHub et vos carrés verts comme les grands sur votre tableau de contribution.
 
 Téléchargez le fichier **"Git-it-Linux-x64.zip"** , décompressez-le dans votre répertoire `$HOME` et lancez l'exécutable `Git-it`. Une interface en français est disponible si l'anglais n'est pas votre tasse de thé. La première étape du tutoriel (sur la création d'un compte GitHub) peut être passée car vous l'avez déjà réalisée dans la précédente étape du TP.
-
-Une fois le tutoriel terminé, prenez une capture d'écran de la page web intégrant votre contribution et envoyez-la à votre enseignant par mail. Notez que ce sera la dernière fois que vous soumettrez votre travail (ou la preuve de celui-ci) par mail. Désormais tous les TPs se feront en utilisant Git !
 
 Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](http://pageperso.lif.univ-mrs.fr/~petru.valicov/Cours/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
 
@@ -91,7 +86,7 @@ email = choucroute.garnie@etu.umontpellier.fr
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-https://classroom.github.com/a/Zkv-kUZA
+LIEN CLASSROOM À AJOUTER ICI
 
 GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoMontp-m2103/tp1' et s'appellant 'IUTInfoMontp-m2103/tp1-votreUsername'. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrées en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
 Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur votre machine et travailler desormais localement tout en "versionant" votre code et en poussant régulièrement vos réalisations.
