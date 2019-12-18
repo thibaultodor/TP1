@@ -17,9 +17,9 @@ Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'es
 * Pour évitez des problèmes durant vos TPs d'informatique, vous devriez toujours **garder 300-400 Mo d'espace libre**.
 
 
-## TP 1 : Rappels de Git et premiers code versionnés
+## TP 1 : Rappels de Git et premier projet versionné
 
-L'objectif des deux premiers TPs de ce module est de vous rappeler les concepts principaux liés à la [gestion de version](https://fr.wikipedia.org/wiki/Gestion_de_versions) avec [Git](https://git-scm.com/). Cet outil vous sera indispensable durant l'apprentissage de ce cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventer la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatiques est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), aux [tests unitaires](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
+L'objectif de la première partie de ce TP est de vous rappeler les concepts principaux liés à la [gestion de version](https://fr.wikipedia.org/wiki/Gestion_de_versions) avec [Git](https://git-scm.com/). Cet outil vous sera indispensable durant l'apprentissage de ce cours. En effet, au délà de la **programmation orientée objets** (l'objectif pédagogique principal du cours), en tant que futur développeur, vous devriez apprendre à être organisé et à collaborer avec d'autres développeurs. Vous apprendrez également à ne pas reinventer la roue : l'informatique est aujourd'hui une science très riche, donc savoir se faire assister par des outils informatiques est essentiel. Pour beaucoup d'entre vous ce TP sera la première occasion de se confronter à l'utilisation d'un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement), aux [tests unitaires](https://fr.wikipedia.org/wiki/Test_unitaire) et à des outils de gestion de cycle de vie logiciel.
 
 ### Introduction à Git et préparation de l'environnement
 
@@ -66,12 +66,12 @@ Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lor
 
 Téléchargez le fichier **"Git-it-Linux-x64.zip"** , décompressez-le dans votre répertoire `$HOME` et lancez l'exécutable `Git-it`. Une interface en français est disponible si l'anglais n'est pas votre tasse de thé. La première étape du tutoriel (sur la création d'un compte GitHub) peut être passée car vous l'avez déjà réalisée dans la précédente étape du TP.
 
-Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](http://pageperso.lif.univ-mrs.fr/~petru.valicov/Cours/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
+Ultérieurement, lorsque vous aurez oublié tout ce que le tuto vous a appris, vous pourrez utiliser ce mini [document](https://pageperso.lis-lab.fr/~petru.valicov/Cours/archives/Aix/M2104/Demarrer%20avec%20Git) qui résume les fonctionnalités principales de Git.
 
 
 #### Configuration locale de Git
 
-Maintenant que vous avez fait le tutoriel vous pouvez correctement configurer Git sur votre machine.
+N'oubliez pas de configurer correctement Git sur votre machine.
 
 Ouvrez le fichier `~/.gitconfig` avec votre éditeur favori et renseignez votre nom, prénom et email dans la 
 section `[user]`.
@@ -99,8 +99,8 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 ~/tpPOO/tp1-VotreUsername$ git push origin master
 ```
 
-## Un petit Salut le Monde qui va bien !
-### Exercice 1
+### Un petit Salut le Monde qui va bien !
+#### Exercice 1
 Dans la méthode principale de la classe `HelloWorld` faites afficher le message "Salut le monde". Dans un terminal, compilez, exécutez, vérifiez et versionnez votre travail.
 
 Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Que constatez vous ?
