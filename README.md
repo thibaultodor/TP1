@@ -88,7 +88,7 @@ Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'é
 
 LIEN CLASSROOM À AJOUTER ICI
 
-GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoMontp-m2103/tp1' et s'appellant 'IUTInfoMontp-m2103/tp1-votreUsername'. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrées en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
+GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoMontp-m2103/tp1' et s'appellant 'IUTInfoMontp-m2103/tp1-votreUsername'. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrés en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
 Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur votre machine et travailler desormais localement tout en "versionant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
