@@ -103,5 +103,5 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 #### Exercice 1
 Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Salut le monde"_.
 1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
-2. Versionnez votre travail avec add/commit.
-3. Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous ? Pourquoi ?
+2. Versionnez votre travail avec `git add` + `git commit`.
+3. Faites un `git push` sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
