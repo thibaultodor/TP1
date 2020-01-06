@@ -33,16 +33,16 @@ Rendez-vous sur la page d'accueil de [GitHub](https://github.com/) :
 
 ![](ressources/Github.png)
 
-Cliquez sur "Sign Up" et dans la page qui apparaît, inscrivez votre nom d'utilisateur. Celui-ci il doit être **obligatoirement** composé de votre prénom et de votre nom séparé par le caractère '-'. Si un utilisateur avec ce nom existe déjà, ajoutez un chiffre à la fin pour éviter les doublons.
+Cliquez sur _Sign Up_ et dans la page qui apparaît, inscrivez votre nom d'utilisateur. Celui-ci il doit être **obligatoirement** composé de votre prénom et de votre nom séparé par le caractère '-'. Si un utilisateur avec ce nom existe déjà, ajoutez un chiffre à la fin pour éviter les doublons.
 Dans le champs "Email Adress" indiquez votre **adresse universitaire**. Attention : il est important que l'adresse soit universitaire afin de pouvoir bénéficier des avantages liés à votre statut d'étudiant. 
 
 ![](ressources/creation_compte.png)
 
-Une fois le mot de passe renseigné, cliquez sur le bouton "_Next: Select a plan_". Sur l'écran suivant, vous choisirez l'option de base (qui coûte 0 dollars). Le troisième et dernier écran d'enregistrement vous demande des informations sur votre profil. Indiquez que vous êtes un étudiant et que vous comptez utiliser GitHub pour des projets étudiants :
+Une fois le mot de passe renseigné, cliquez sur le bouton _Next: Select a plan_. Sur l'écran suivant, vous choisirez l'option de base (qui coûte 0 dollars). Le troisième et dernier écran d'enregistrement vous demande des informations sur votre profil. Indiquez que vous êtes un étudiant et que vous comptez utiliser GitHub pour des projets étudiants :
 
 ![](ressources/preferences.png)
 
-Une fois ces informations renseignées vous pouvez cliquer sur "_Complete Setup_" pour définitivement créer votre compte. N'oubliez pas de valider votre adresse email en allant cliquer sur le lien reçu dans votre boîte mail.
+Une fois ces informations renseignées vous pouvez cliquer sur _Complete Setup_ pour définitivement créer votre compte. N'oubliez pas de valider votre adresse email en allant cliquer sur le lien reçu dans votre boîte mail.
 
 #### Paramétrage de votre compte GitHub
 
@@ -59,7 +59,7 @@ Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudi
 
 #### Prise en main de Git
 
-Normalement, la plupart d'entre vous a suivi au Semestre 1 le [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT. Si vous voulez vous entraîner un peu plus, notamment sur l'utilisation des branches, vous pouvez utiliser le tutoriel interactif **[Git-It](https://github.com/jlord/git-it-electron)**. 
+Normalement, la plupart d'entre vous a suivi au Semestre 1 le [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT. Si vous n'avez jamais fait ce tutoriel ou souhaitez vous entraîner un peu plus, notamment sur l'utilisation des branches, vous pouvez utiliser le tutoriel interactif **[Git-It](https://github.com/jlord/git-it-electron)**. 
 Cette application est multi-plateforme et pourra donc être utilisée indifférement sur les ordinateurs du département ou 
 le vôtre. Elle contient des défis pour l'apprentissage, en utilisant vraiment Git et GitHub, pas des émulateurs. 
 Les défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque vous aurez terminé tous les défis, vous aurez de vrais dépôts sur votre compte GitHub et vos carrés verts comme les grands sur votre tableau de contribution.
@@ -88,7 +88,7 @@ Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'é
 
 LIEN CLASSROOM À AJOUTER ICI
 
-GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoMontp-m2103/tp1' et s'appellant 'IUTInfoMontp-m2103/tp1-votreUsername'. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrés en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
+GitHub va vous créer un dépôt contenant un fork du dépôt __IUTInfoMontp-m2103/tp1__ et s'appellant __IUTInfoMontp-m2103/tp1-votreUsername__. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrés en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
 Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur votre machine et travailler desormais localement tout en "versionant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
@@ -101,6 +101,7 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 ### Un petit Salut le Monde qui va bien !
 #### Exercice 1
-Dans la méthode principale de la classe `HelloWorld` faites afficher le message "Salut le monde". Dans un terminal, compilez, exécutez, vérifiez et versionnez votre travail.
-
-Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Que constatez vous ?
+Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Salut le monde"_.
+1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
+2. Versionnez votre travail avec add/commit.
+3. Faites un push sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous ? Pourquoi ?
