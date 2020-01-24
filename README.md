@@ -34,7 +34,7 @@ Rendez-vous sur la page d'accueil de [GitHub](https://github.com/) :
 ![](ressources/Github.png)
 
 Cliquez sur _Sign Up_ et dans la page qui apparaît, inscrivez votre nom d'utilisateur. Celui-ci il doit être **obligatoirement** composé de votre prénom et de votre nom séparé par le caractère '-'. Si un utilisateur avec ce nom existe déjà, ajoutez un chiffre à la fin pour éviter les doublons.
-Dans le champs "Email Adress" indiquez votre **adresse universitaire**. Attention : il est important que l'adresse soit universitaire afin de pouvoir bénéficier des avantages liés à votre statut d'étudiant. 
+Dans le champ "Email Adress" indiquez votre **adresse universitaire**. Attention : il est important que l'adresse soit universitaire afin de pouvoir bénéficier des avantages liés à votre statut d'étudiant. 
 
 ![](ressources/creation_compte.png)
 
@@ -47,7 +47,7 @@ Une fois ces informations renseignées vous pouvez cliquer sur _Complete Setup_ 
 #### Paramétrage de votre compte GitHub
 
 Maintenant que votre compte est créé, il faut personnaliser votre profil. GitHub, en plus de vous fournir un moyen simple 
-et efficace de conserver votre code en ligne, est aussi un réseau social de développeur. Pour que votre profil puisse 
+et efficace de conserver votre code en ligne, est aussi un réseau social de développeurs. Pour que votre profil puisse 
 être valorisé un jour dans votre carrière pro, vous devez correctement renseigner vos informations.
 
 #### Demande du "Student Pack"
@@ -86,8 +86,8 @@ email = choucroute.garnie@etu.umontpellier.fr
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur [CE LIEN](https://classroom.github.com/a/ME6cR_-_).
 
-GitHub va vous créer un dépôt contenant un fork du dépôt __IUTInfoMontp-m2103/tp1__ et s'appellant __IUTInfoMontp-m2103/tp1-votreUsername__. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrés en tant que contributeurs également. Cette façon de faire permet à la fois de centraliser et uniformiser les rendus de chaque étudiant et de permettre aux enseignants de suivre plus facilement votre travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
-Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur votre machine et travailler desormais localement tout en "versionant" votre code et en poussant régulièrement vos réalisations.
+GitHub va vous créer un dépôt contenant un fork du dépôt __IUTInfoMontp-m2103/tp1__ et s'appellant __IUTInfoMontp-m2103/tp1-votreUsername__. Ce dépôt sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Les enseignants du module seront automatiquement intégrés en tant que contributeurs également. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre plus facilement leur travail. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
+Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
 Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche master) :
