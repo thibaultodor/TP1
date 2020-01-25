@@ -92,7 +92,7 @@ Vous allez  cloner le fork GitHub 'IUTInfoMontp-m2103/tp1-votreUsername' sur vot
 ### À faire pour chaque exercice 
 Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche master) :
 ```sh
-~/tpPOO/tp1-VotreUsername$ git add .
+~/tpPOO/tp1-VotreUsername$ git add fichiers_que_vous_avez_modifié
 ~/tpPOO/tp1-VotreUsername$ git commit -m "Validation de l'exercice 1"
 ~/tpPOO/tp1-VotreUsername$ git push origin master
 ```
