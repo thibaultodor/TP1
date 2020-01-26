@@ -105,3 +105,5 @@ Dans la méthode principale de la classe `HelloWorld` faites afficher le message
 1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
 2. Versionnez votre travail avec `git add` + `git commit`.
 3. Faites un `git push` sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
+
+En règle générale une séparation entre le code source et le byte code est nécessaire pour une meilleure lisibilité de votre programme. Ce qui est généralement conseillé c'est d'avoir au moins deux répetoires à la racine de votre projet. Par exemple `src` + `bin` ou encore `src` + `target`. Pour les différentes options de compilation : https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html
